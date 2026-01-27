@@ -1,0 +1,91 @@
+# Python Environment (CRITICAL - Don't push 500MB+ venv)
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# Machine Learning Models (Use Git LFS or model registry for these)
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.pb
+model.joblib
+
+# Data Files (Can be large)
+*.csv
+*.parquet
+*.feather
+data/raw/
+data/processed/
+datasets/
+
+# Claude Settings (Local configuration)
+.claude/
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+credentials.json
+secrets.yaml
+config.local.yaml
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# MLflow (if you add it later)
+mlruns/
+mlartifacts/
+
+# DVC (if you add it later)
+.dvc/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
